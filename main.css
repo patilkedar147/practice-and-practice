@@ -1,0 +1,96 @@
+@import 'utility.css';
+
+
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/* variable are usefull more effective work   */
+:root {
+
+    /* these are variables for colour  */
+    --primary: #3DCFD3;
+    --dark: #161616;
+    --pure: #FFFFFF;
+    --ternary: #898989;
+    --light: #F2F2F2;
+
+}
+
+.baody {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: var(--dark);
+    /* height: 500px; */
+    clip-path: polygon(0 0,100% 0 , 100% 100%, 80% 88%, 0 100%);
+}
+
+.container {
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.navbar a:hover {
+    color: var(--primary);
+    transition: all .3s ease;
+
+}
+
+.left a {
+    color: var(--pure);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+}
+
+.container .navbar {
+    padding: 2rem 0px;
+}
+
+/* hero section css  */
+.hero{
+    padding: 2rem 0;
+}
+
+.hero .left img {
+    width: 225px;
+}
+
+.hero .right {
+    color: var(--pure);
+
+}
+
+.hero .right h6 {
+
+    font-size: 1.2rem;
+    color: var(--primary);
+    margin-bottom: .4rem
+    ;
+
+}
+.hero .right h1{
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1;
+    margin-bottom: 1.5rem;
+}
+.hero .right h1 span{
+    color: var(--primary);
+
+}
+.hero .right p{
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+.hero .right{
+    margin-top: -7rem;
+}
